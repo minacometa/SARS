@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SARS", "SARS.csproj", "{4EB717AC-F329-4538-807E-E72511E7CFFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SARS.Tests", "..\SARS.Tests\SARS.Tests.csproj", "{AE4914DB-6E6D-44FA-8AE9-DD9FACF735B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EB717AC-F329-4538-807E-E72511E7CFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB717AC-F329-4538-807E-E72511E7CFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB717AC-F329-4538-807E-E72511E7CFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB717AC-F329-4538-807E-E72511E7CFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4914DB-6E6D-44FA-8AE9-DD9FACF735B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4914DB-6E6D-44FA-8AE9-DD9FACF735B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4914DB-6E6D-44FA-8AE9-DD9FACF735B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4914DB-6E6D-44FA-8AE9-DD9FACF735B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C19B6EE-E733-46C0-A6E7-8D0C38D77010}
+	EndGlobalSection
+EndGlobal
