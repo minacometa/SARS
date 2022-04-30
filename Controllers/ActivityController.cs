@@ -22,7 +22,14 @@ namespace SARS.Controllers
         [HttpGet("{key}/total")]
         public int Get(string key)
         {
-            return _activityCommands.GetTotal(key, ref _context);
+            try
+            {
+                return _activityCommands.GetTotal(key, ref _context);
+            }
+            catch
+            { 
+                throw;
+            }
         }
         
         [HttpPost("{key}")]
